@@ -1,3 +1,5 @@
-# Projeto_MD
-TP de Matemática Discreta
-Alunos: Ana Alice Gomes e Bruno Orzari dos Santos
+#Meu_Projeto
+
+-PDS
+|__ 2025
+  |__VPL_n
