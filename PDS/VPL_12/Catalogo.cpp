@@ -40,6 +40,8 @@
                 return item;
             }
         }
+        std::cout<<"Erro: midia "<<titulo<<" inexistente"<<std::endl;
+        return nullptr;
     }
     //Se não encontrar: retorna nullptr.
     void Catalogo::list_all() const{

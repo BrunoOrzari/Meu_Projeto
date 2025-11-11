@@ -23,4 +23,12 @@ void Playlist::play_all() const{
         faixa->play();
     }
 }// reproduz as faixas em ordem chamando play()
-
+std::string Playlist::get_nome(){
+    return _nome;
+}
+void Playlist::set_nome(std::string nome){
+    _nome = nome;
+}
+void Playlist::clear_vetor(){
+    _faixas.clear();
+}
