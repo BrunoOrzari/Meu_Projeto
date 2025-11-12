@@ -19,7 +19,10 @@ Podcast::Podcast(std::string titulo, int duracao_s, std::string host, int episod
     Episodio: <_episodio>
 */
     void Podcast::play() const {//omiti 
-        std::cout<<"Playing "<<_titulo;
+        for (int i = 1; i <= _duracao_s; ++i) {
+            std::cout << "Playing " << _titulo << " [" << i << "/" << _duracao_s << "]" << std::endl;
+        }
+        //std::cout<<"Playing "<<_titulo;versão antiga
     }// mesma simulação descrita em Midia.
     std::string Podcast::tipo() const { //omiti 
         return "Podcast";

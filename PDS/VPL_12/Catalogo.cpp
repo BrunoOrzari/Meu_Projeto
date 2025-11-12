@@ -52,7 +52,7 @@
         }
         else{
             for(auto& item:_itens){
-            std::cout<<*item<<std::endl;
+            std::cout<<*item;
         }         
         }
     }

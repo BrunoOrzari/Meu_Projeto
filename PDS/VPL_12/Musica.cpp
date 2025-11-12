@@ -12,7 +12,10 @@ void Musica::print_info() const {
 }
 
 void Musica::play() const {
-    std::cout<<"Playing "<<_titulo;
+    for (int i = 1; i <= _duracao_s; ++i) {
+        std::cout << "Playing " << _titulo << " [" << i << "/" << _duracao_s << "]" << std::endl;
+    }
+    //;std::cout<<"Playing "<<_titulo;
 }// mesma simulação descrita em Midia.
 
 std::string Musica::tipo() const {
